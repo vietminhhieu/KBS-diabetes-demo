@@ -39,14 +39,14 @@ function App() {
       alert("Triệu chứng không được để trống. Mời bạn chọn lại!");
 
     if (
-      inputValue.disease !== "" &&
-      inputValue.habit.length !== 0 &&
-      inputValue.cause.length !== 0 &&
-      inputValue.symptom.length !== 0
+      (inputValue.disease !== "" &&
+        inputValue.habit.length !== 0 &&
+        inputValue.cause.length !== 0 &&
+        inputValue.symptom.length !== 0 &&
+        inputValue.parent === "father-or-mother") ||
+      inputValue.parent === "father-and-mother"
     ) {
-      inputValue.disease === "yes" &&
-        inputValue.parent !== "" &&
-        setModalShow(true);
+      setModalShow(true);
     }
   }
 

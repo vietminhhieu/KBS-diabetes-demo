@@ -43,11 +43,6 @@ const AdviceModal = (props) => {
             ));
           }
         })}
-        {/* <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p> */}
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={() => props.onHide(false)}>Đóng</Button>

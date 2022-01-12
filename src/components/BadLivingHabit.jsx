@@ -33,7 +33,7 @@ const BadLivingHabit = ({ inputHabitValue, setInputHabitValue }) => {
       </label>
       <Row>
         {habitMapArr.map((item, index) => (
-          <Col xs={3} key={index}>
+          <Col xs={6} md={4} xxl={3} key={index}>
             <input
               onChange={(e) => handleInputHabitValue(e)}
               type="checkbox"

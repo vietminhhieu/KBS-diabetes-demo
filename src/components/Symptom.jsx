@@ -41,7 +41,7 @@ const Symptom = ({ inputSymptomValue, setInputSymptomValue }) => {
       </label>
       <Row>
         {symptomMapArr.map((item, index) => (
-          <Col xs={3} key={index}>
+          <Col xs={6} md={4} xxl={3} key={index}>
             <input
               onChange={(e) => handleInputSymptomValue(e)}
               type="checkbox"

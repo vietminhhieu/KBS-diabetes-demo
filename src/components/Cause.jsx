@@ -39,7 +39,7 @@ const Cause = ({ inputCauseValue, setInputCauseValue }) => {
       </label>
       <Row>
         {causeMapArr.map((item, index) => (
-          <Col xs={3} key={index}>
+          <Col xs={6} md={4} xxl={3} key={index}>
             <input
               onChange={(e) => handleInputCauseValue(e)}
               type="checkbox"
