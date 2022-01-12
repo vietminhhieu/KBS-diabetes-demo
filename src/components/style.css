@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.big-part {
+  padding: 0.25rem 1rem;
+  font-size: 1.125rem;
+}
+
+.select-label,
+.radio-label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.first-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.value-yes {
+  margin-left: 2rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+select {
+  height: 2rem;
+}
+
+Button {
+  text-align: center;
+  margin-top: 1.5rem;
+}
