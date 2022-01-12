@@ -16,6 +16,7 @@ const diabetesDataArr = [
     adviceTitle:
       "Bạn không mắc bệnh tiểu đường, chúng tôi có một số lời khuyên giúp bạn sẽ tránh được bệnh tiểu đường trong tương lại: ",
     advice: [
+      "Khát nước và đi tiểu nhiều lần do dư thừa glucose trong cơ thể. Bạn nên ăn ít đồ ăn có chứa glucozo như nước sốt và gia vị",
       "Bạn nên ăn ít đồ ăn có chứa glucozo, nên thường xuyên tập thể dục, ngủ đúng giờ, tránh thuốc lá, rượu bia.",
     ],
   },

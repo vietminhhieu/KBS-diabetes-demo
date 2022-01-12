@@ -39,12 +39,10 @@ function App() {
       alert("Triệu chứng không được để trống. Mời bạn chọn lại!");
 
     if (
-      (inputValue.disease !== "" &&
-        inputValue.habit.length !== 0 &&
-        inputValue.cause.length !== 0 &&
-        inputValue.symptom.length !== 0 &&
-        inputValue.parent === "father-or-mother") ||
-      inputValue.parent === "father-and-mother"
+      inputValue.disease !== "" &&
+      inputValue.habit.length !== 0 &&
+      inputValue.cause.length !== 0 &&
+      inputValue.symptom.length !== 0
     ) {
       setModalShow(true);
     }
@@ -98,7 +96,7 @@ function App() {
     const w1 = handleFamilyHistoryDiabetes();
     console.log("w1: " + w1);
 
-    // handle bad living habit
+    // handle input checkbox
     const handleInputCheckbox = (inputParam, itemParam) => {
       let count = 0;
       for (let i = 0; i < inputParam.length; i++) {

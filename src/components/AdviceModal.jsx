@@ -43,6 +43,13 @@ const AdviceModal = (props) => {
             ));
           }
         })}
+        <h6 style={{ margin: "0 0.5rem 0 0.5rem", textAlign: "justify" }}>
+          Chúng tôi khuyên bạn nên đến gặp trực tiếp các bác sĩ chuyên khoa để
+          biết rõ hơn về tình trạng của mình
+        </h6>
+        <h6 style={{ margin: "0 0.5rem 0 0.5rem", textAlign: "justify" }}>
+          Cảm ơn bạn đã dùng hệ thống tư vấn khám bệnh tiểu đường
+        </h6>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={() => props.onHide(false)}>Đóng</Button>
